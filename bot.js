@@ -6,8 +6,7 @@ var fs = require('fs');
 // -->COMMANDS<--
 
 bot.on('guildMemberAdd',member =>{
-    member.send('Selam dostum! Sunucuma katılırmısın aktiflik ve kullanıcı lazım gelirsen sevinirim.
-https://discord.gg/xUw6bQ2');
+    member.send('Selam dostum! Sunucuma katılırmısın aktiflik ve kullanıcı lazım gelirsen sevinirim https://discord.gg/xUw6bQ2');
 
     //member.guild.defaultChannel.sendmessage(`Welcome "${member.user.username}"! Be sure to set your platform by typing "!role"`);
 
