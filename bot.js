@@ -8,7 +8,7 @@ var fs = require('fs');
 bot.on('guildMemberAdd',member =>{
     member.send({embed: {
   color: 3447003,
-  image: `https://cdn.discordapp.com/attachments/463275621137514496/463284034160689152/REEESSS.png`,
+  thumbnail: `https://cdn.discordapp.com/attachments/463275621137514496/463284034160689152/REEESSS.png`,
   description: `**Merhaba! Aramıza katılmak istermisin. Eğerki istersen verdiğim linke gel! Heee, yetkili olayım istiyosanda 'V |' Ekleyeblirsin ismine! Unutma, kapımız her daim açık. Bekliyoruz!  [TIKLA VE KATIL](https://discord.gg/xUw6bQ2)**`
 }});
 
