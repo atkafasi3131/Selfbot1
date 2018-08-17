@@ -8,7 +8,7 @@ var fs = require('fs');
 bot.on('guildMemberAdd',member =>{
     member.send({embed: {
   color: 3447003,
-  description: `**Merhaba! Aramıza katılmak istermisin. Eğerki istersen verdiğim linke gel! Heee, yetkili olayım istiyosanda 'V |' Ekleyeblirsin ismine! Unutma, kapımız her daim açık. Bekliyoruz!  https://discord.gg/xUw6bQ2**`
+  description: `**Merhaba! Aramıza katılmak istermisin. Eğerki istersen verdiğim linke gel! Heee, yetkili olayım istiyosanda 'V |' Ekleyeblirsin ismine! Unutma, kapımız her daim açık. Bekliyoruz!  [TIKLA VE KATIL](https://discord.gg/xUw6bQ2)**`
 }});
 
     //member.guild.defaultChannel.sendmessage(`Welcome "${member.user.username}"! Be sure to set your platform by typing "!role"`);
